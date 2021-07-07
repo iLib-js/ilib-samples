@@ -37,7 +37,7 @@ module.exports = {
   ],
   devServer: {
     host: 'localhost',
-    port: 3000,
+    port: port,
     open: true, // open page when start
   },
 };
