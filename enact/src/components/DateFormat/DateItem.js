@@ -6,38 +6,38 @@ import PropTypes from 'prop-types';
 import {dateTypeList} from './DateFormat';
 
 const DateItem = kind({
-	name: 'DateItem',
+    name: 'DateItem',
 
-	propTypes: {
-		selectedDate: PropTypes.object.isRequired,
-		index: PropTypes.number
-	},
+    propTypes: {
+        selectedDate: PropTypes.object.isRequired,
+        index: PropTypes.number
+    },
 
-	computed: {
-		iLibFormat: ({index/* , selectedDate*/}) => {
-			const selectedDateType = dateTypeList[index];
+    computed: {
+        iLibFormat: ({index/* , selectedDate*/}) => {
+            const selectedDateType = dateTypeList[index];
 
-			return new DateFmt({
-				date: selectedDateType['date'],
-				length: selectedDateType['length'],
-				type: selectedDateType['type'],
-				time: selectedDateType['time'],
-				clock: selectedDateType['clock']
-			});
-		}
-	},
+            return new DateFmt({
+                date: selectedDateType['date'],
+                length: selectedDateType['length'],
+                type: selectedDateType['type'],
+                time: selectedDateType['time'],
+                clock: selectedDateType['clock']
+            });
+        }
+    },
 
-	render: ({iLibFormat, type, selectedDate, ...rest}) => {
-		delete rest['selectedDateType'];
+    render: ({iLibFormat, type, selectedDate, ...rest}) => {
+        delete rest['selectedDateType'];
 
-		return (
-			<Row {...rest}>
-				<Cell>{type}</Cell>
-				<Cell>{iLibFormat.template}</Cell>
-				<Cell>{iLibFormat.format(selectedDate)}</Cell>
-			</Row>
-		);
-	}
+        return (
+            <Row {...rest}>
+                <Cell>{type}</Cell>
+                <Cell>{iLibFormat.template}</Cell>
+                <Cell>{iLibFormat.format(selectedDate)}</Cell>
+            </Row>
+        );
+    }
 });
 
 export default DateItem;
