@@ -1,10 +1,8 @@
 import {combineReducers} from 'redux';
-
 import {UPDATE_LOCALE, GETLOCALEINFO_SUCCESS} from '../actions';
 
 // NOTE: We use this type of structure for performance.
 const initialState = 'en-US';
-
 const initLocaleInfo = {
     payload: {
         locales: [{code: ''}],

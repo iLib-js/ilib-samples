@@ -10,9 +10,7 @@ import {Column, Row, Cell} from '@enact/ui/Layout';
 import ri from '@enact/ui/resolution';
 import DateFmt from 'ilib/lib/DateFmt';
 import {Component} from 'react';
-
 import DateItem from './DateItem';
-
 import css from './DateFormat.module.less';
 
 const types = {
@@ -30,7 +28,6 @@ const types = {
 };
 
 export let dateTypeList = [];
-
 let idx = 0;
 
 for (let i = 0; i < types.dateType.date.length; i++) {
