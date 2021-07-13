@@ -1,3 +1,4 @@
+import React from 'react';
 import kind from '@enact/core/kind';
 import $L from '@enact/i18n/$L';
 import {Panel, Header} from '@enact/sandstone/Panels';

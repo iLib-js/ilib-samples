@@ -5,7 +5,7 @@ import ContextualPopupDecorator from '@enact/sandstone/ContextualPopupDecorator'
 import VirtualList from '@enact/sandstone/VirtualList';
 import ri from '@enact/ui/resolution';
 import PropTypes from 'prop-types';
-import {Component} from 'react';
+import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
 import {requestLocaleInfo, updateLocale} from '../../actions';

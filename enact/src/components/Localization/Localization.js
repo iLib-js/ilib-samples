@@ -3,7 +3,7 @@ import BodyText from '@enact/sandstone/BodyText';
 import Heading from '@enact/sandstone/Heading';
 import IString from 'ilib/lib/IString';
 import PropTypes from 'prop-types';
-import {Component} from 'react';
+import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
 class Localization extends Component {

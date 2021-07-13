@@ -1,6 +1,6 @@
 import {Panels} from '@enact/sandstone/Panels';
 import ThemeDecorator from '@enact/sandstone/ThemeDecorator';
-import {Component} from 'react';
+import React,{Component} from 'react';
 import {connect} from 'react-redux';
 import MainPanel from '../views/MainPanel';
 

@@ -1,5 +1,5 @@
 import TabLayout, {Tab} from '@enact/sandstone/TabLayout';
-import {Component} from 'react';
+import React,{Component} from 'react';
 import DateFormat from '../components/DateFormat';
 import Localization from '../components/Localization';
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import kind from '@enact/core/kind';
 import {Row, Cell} from '@enact/ui/Layout';
 import DateFmt from 'ilib/lib/DateFmt';
