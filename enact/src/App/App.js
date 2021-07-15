@@ -1,6 +1,7 @@
+// eslint-disable-next-line
+import React,{Component} from 'react';
 import {Panels} from '@enact/sandstone/Panels';
 import ThemeDecorator from '@enact/sandstone/ThemeDecorator';
-import React,{Component} from 'react';
 import {connect} from 'react-redux';
 import MainPanel from '../views/MainPanel';
 

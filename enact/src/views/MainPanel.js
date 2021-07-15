@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from 'react';
 import kind from '@enact/core/kind';
 import $L from '@enact/i18n/$L';

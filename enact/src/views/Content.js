@@ -1,5 +1,6 @@
-import TabLayout, {Tab} from '@enact/sandstone/TabLayout';
+// eslint-disable-next-line
 import React,{Component} from 'react';
+import TabLayout, {Tab} from '@enact/sandstone/TabLayout';
 import DateFormat from '../components/DateFormat';
 import Localization from '../components/Localization';
 

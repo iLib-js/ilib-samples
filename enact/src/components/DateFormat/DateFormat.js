@@ -1,3 +1,5 @@
+ // eslint-disable-next-line
+import React,{Component} from 'react';
 import $L from '@enact/i18n/$L';
 import BodyText from '@enact/sandstone/BodyText';
 import DatePicker from '@enact/sandstone/DatePicker';
@@ -9,7 +11,6 @@ import Changeable from '@enact/ui/Changeable';
 import {Column, Row, Cell} from '@enact/ui/Layout';
 import ri from '@enact/ui/resolution';
 import DateFmt from 'ilib/lib/DateFmt';
-import React,{Component} from 'react';
 import DateItem from './DateItem';
 import css from './DateFormat.module.less';
 

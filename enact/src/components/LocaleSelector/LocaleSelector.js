@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+import React,{Component} from 'react';
 import {I18nContextDecorator} from '@enact/i18n/I18nDecorator';
 import Button from '@enact/sandstone/Button';
 import CheckboxItem from '@enact/sandstone/CheckboxItem';
@@ -5,7 +7,6 @@ import ContextualPopupDecorator from '@enact/sandstone/ContextualPopupDecorator'
 import VirtualList from '@enact/sandstone/VirtualList';
 import ri from '@enact/ui/resolution';
 import PropTypes from 'prop-types';
-import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
 import {requestLocaleInfo, updateLocale} from '../../actions';

@@ -1,3 +1,4 @@
+ // eslint-disable-next-line
 import React from 'react';
 import kind from '@enact/core/kind';
 import {Row, Cell} from '@enact/ui/Layout';

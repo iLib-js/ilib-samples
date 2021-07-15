@@ -1,9 +1,10 @@
+// eslint-disable-next-line
+import React,{Component} from 'react';
 import $L from '@enact/i18n/$L';
 import BodyText from '@enact/sandstone/BodyText';
 import Heading from '@enact/sandstone/Heading';
 import IString from 'ilib/lib/IString';
 import PropTypes from 'prop-types';
-import React,{Component} from 'react';
 import {connect} from 'react-redux';
 
 class Localization extends Component {
