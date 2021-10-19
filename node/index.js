@@ -23,6 +23,7 @@ var basePath = "/home/goun/Source/opensource_iLib/develop/js"
 
 var ilib = require(path.join(basePath, ""));
 var ResBundle = require(path.join(basePath, "lib/ResBundle"));
+var defaultRcPath = path.join(process.cwd(), "resources");
 
 console.log("#### iLib Test on nodejs ########");
 
@@ -37,7 +38,10 @@ testResbundle();
 ilib.clearPaths();
 
 function testResbundle(){
-    var rb = new ResBundle({locale:"ko-KR"});
+    var rb = new ResBundle({
+        locale:"ko-KR",
+        basePath: defaultRcPath
+    });
     var str = rb.getString("Hello").toString();
     console.log(str);
     var str = rb.getString("Thank you").toString();
