@@ -19,7 +19,7 @@
 
 var path = require('path');
 
-var basePath = "/home/goun/Source/opensource_iLib/develop/js"
+var basePath = "/home/goun/Source/opensource_iLib/master/js"
 
 var ilib = require(path.join(basePath, ""));
 var ResBundle = require(path.join(basePath, "lib/ResBundle"));
@@ -30,12 +30,15 @@ console.log("#### iLib Test on nodejs ########");
 console.log("1) Default Resbundle");
 testResbundle();
 
-ilib.setPaths(path.join(process.cwd(),"resources2"));
-
-console.log("2) Multiple paths for Resbundle");
+console.log("2) Add addtional path to Loader");
+var ilibLoader = ilib.getLoader();
+ilibLoader.addPath(path.join(process.cwd(), "resources2"));
 testResbundle();
 
-ilib.clearPaths();
+
+console.log("3) Remove added Path from Loader");
+ilibLoader.removePath(path.join(process.cwd(), "resources2"));
+testResbundle();
 
 function testResbundle(){
     var rb = new ResBundle({
