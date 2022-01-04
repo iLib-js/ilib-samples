@@ -1,14 +1,17 @@
 {
-  "name": "webpacktest",
+  "name": "ilib-webpack-async",
   "version": "1.0.0",
   "description": "",
-  "main": "ilib-metafile.js",
+  "main": "ilib-include.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 	"clean": "rm -rf assets ilib.js ilib-include.js webpack.config.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Goun Lee",
+    "email": "goun.lee@lge.com"
+  },
+  "license": "Apache-2.0",
   "dependencies": {
     "ilib": "^14.3.0",
     "ilib-es6": "^14.11.1",
