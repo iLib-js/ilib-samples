@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="ilib.js"></script>
+<script>
+    // all of the classes have been copied to the global scope here, so
+    // you can just start using them:
+    new DateFmt({
+            locale:"ko-KR",
+            length: "full",
+            sync: false,
+            onLoad: function(fmt) {
+                new GregorianDate({
+                    year: 2022,
+                    month: 1,
+                    day: 20,
+                    hour: 13,
+                    minute: 45,
+                    second: 0,
+                    millisecond: 0,
+                    sync: false,
+                    onLoad: function(date) {
+                        console.log("Result: " + fmt.format(date));
+                    }
+                });
+            }
+        });
+</script>
+</head>
+<body>
+Test page
+</body>
+</html>
