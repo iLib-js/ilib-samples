@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="ilib.js"></script>
+<script>
+    new DateFmt({
+            locale:"ko-KR",
+            length: "full",
+            type: "datetime",
+            timezone: "local",
+            sync: false,
+            onLoad: function(fmt) {
+                new GregorianDate({
+                    year: 2022,
+                    month: 1,
+                    day: 20,
+                    hour: 13,
+                    minute: 45,
+                    second: 0,
+                    millisecond: 0,
+                    sync: false,
+                    onLoad: function(date) {
+                        console.log("Result: " + fmt.format(date));
+                    }
+                });
+            }
+        });
+</script>
+</head>
+<body>
+    Test page<br>
+    Check the <b>console log</b> through Chrome inspector
+</body>
+</html>
