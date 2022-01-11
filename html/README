@@ -1,0 +1,13 @@
+iLib build which includes js files and locale data in one file.
+
+step 1)
+ npm install
+
+step 2)
+ ilib-scanner --assembly=assembled --locales=ko-KR,es-ES ilib-include.js
+
+step 3)
+webpack (version 5.x.x is not working)
+
+step 4)
+ launch index.html

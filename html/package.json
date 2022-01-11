@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf assets output ilib.js ilib-include.js webpack.config.js"
+    "clean": "rm -rf assets output ilib.js ilib-include.js webpack.config.js",
+    "scan": "ilib-scanner --assembly=assembled --locales=ko-KR,es-ES ilib-include.js",
+    "build": "webpack"
   },
   "author": {
     "name": "Goun Lee",
