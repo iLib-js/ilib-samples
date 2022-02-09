@@ -1,13 +1,16 @@
-iLib build which includes js files and locale data in one file.
+Steps to generate files to work correctly.
 
 step 1)
- npm install
+ `npm install`
 
 step 2)
- ilib-scanner --assembly=assembled --locales=ko-KR,es-ES ilib-include.js
+ `npm run scan`
 
 step 3)
-webpack (version 5.x.x is not working)
+`npm run build`
 
 step 4)
- launch index.html
+ choose between `npm run gen-res-assemble` or `npm run gen-res-dynamic`
+
+step 5)
+ launch `index.html`
