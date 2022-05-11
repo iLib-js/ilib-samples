@@ -39,7 +39,7 @@ testResbundle();
 
 function testResbundle(){
     var rb = new ResBundle({
-        locale:"ko-KR",
+        locale:"en-GB",
         basePath: defaultRcPath
     });
     var str = rb.getString("Hello").toString();
