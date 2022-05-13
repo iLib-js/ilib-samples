@@ -1,9 +1,9 @@
 # Custom Resource loading Test
 
- - Add below env variable to enact/.env file.
+ 1) Add below env variable to enact/.env file.
   REACT_APP_ILIB_ADDITIONAL_RESOURCES_PATH=resources2
 
- - Add "l10n_timestamp" properties to resources/ilibmanifest.json and resources2/ilibmanifest.json like below.
+ 2) Add "l10n_timestamp" properties to resources/ilibmanifest.json and resources2/ilibmanifest.json like below.
 
 {
       "files": [
@@ -14,7 +14,7 @@
      "l10n_timestamp": "1234" //random value, it should be different between resources/ilibmanifest.json and resources2/ilibmanifest.json
 }
 
- - npm run pack
- - copy resources2/ to dist manually.
- - serve 
- - visit localhost:8000
+ 3) `npm run pack`
+ 4) copy resources2/ to dist manually.
+ 5) `serve` in dist/ directory
+ 6) open the page. (http://localhost:5000)
