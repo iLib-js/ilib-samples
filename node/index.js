@@ -57,6 +57,6 @@ function testResbundle_en_GB(){
         locale:"en-GB",
         basePath: defaultRcPath
     });
-    var str = rb.getString("Start a new experience with LG webOS TV.").toString();
+    var str = rb.getString("Start a new experience with abc TV.").toString();
     console.log(str);
 }
