@@ -21,21 +21,22 @@ var path = require('path');
 
 module.exports = {
     mode: "development",
-    entry: "./test/testSuiteWeb.js",
+    entry: "./node_modules/ilib-localeinfo",
     output: {
         path: path.resolve(__dirname, 'test'),
-        filename: "ilib-localeinfo-test.js",
+        filename: "moduleTest.js",
+        publicPath: "test/",
         library: {
-            name: "ilibLocaleInfoTest",
-            type: "umd"
+            name: "LocaleInfoModule",
+            type: "var"
         }
     },
     externals: {
-        "./NodeLoader": "NodeLoader",
-        "./QtLoader": "QtLoader",
-        "./RhinoLoader": "RhinoLoader",
-        "./NashornLoader": "NashornLoader",
-        "./RingoLoader": "RingoLoader",
+        "./NodeLoader.js": "NodeLoader",
+        "./QtLoader.js": "QtLoader",
+        "./RhinoLoader.js": "RhinoLoader",
+        "./NashornLoader.js": "NashornLoader",
+        "./RingoLoader.js": "RingoLoader",
         "log4js": "log4js",
         "nodeunit": "nodeunit"
     },
@@ -55,54 +56,23 @@ module.exports = {
                             presets: [[
                                 '@babel/preset-env',
                                 {
-                                    useBuiltIns: 'usage',
-                                    corejs: {
-                                        version: 3,
-                                        proposals: true
+                                    "targets": {
+                                       "browsers": "cover 99.5%"
                                     }
                                 }
                             ]],
                             options: {
                                 "exclude": [
                                     // \\ for Windows, \/ for Mac OS and Linux
-                                    /node_modules[\\\/]core-js/,
                                     /node_modules[\\\/]webpack[\\\/]buildin/,
                                 ],
                             },
                             plugins: [
-                                "add-module-exports",
-                                "@babel/plugin-transform-regenerator"
+                                "add-module-exports"
                             ]
                         }
                     },
                     { loader: '@open-wc/webpack-import-meta-loader' }
-                ]
-            },
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: [
-                    {
-                        loader: 'babel-loader',
-                        options: {
-                            minified: false,
-                            compact: false,
-                            presets: [[
-                                '@babel/preset-env',
-                                {
-                                    useBuiltIns: 'usage',
-                                    corejs: {
-                                        version: 3,
-                                        proposals: true
-                                    }
-                                }
-                            ]],
-                            plugins: [
-                                "add-module-exports",
-                                "@babel/plugin-transform-regenerator"
-                            ]
-                        }
-                    }
                 ]
             }
         ]
@@ -112,7 +82,7 @@ module.exports = {
             buffer: require.resolve("buffer")
         },
         alias: {
-            "calling-module": "../../../assembled"
+            "calling-module": path.join(__dirname, "assembled")
         }
     },
     optimization: {

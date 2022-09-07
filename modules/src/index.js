@@ -25,7 +25,7 @@ if (process.argv.length < 2) {
 
 const locale = process.argv[2];
 
-const li = new LocaleInfo({locale});
+const li = new LocaleInfo(locale);
 
 console.log(`Locale information for locale ${locale}`);
 console.log(JSON.stringify(li, undefined, 4));
