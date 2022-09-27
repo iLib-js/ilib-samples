@@ -21,7 +21,7 @@ var path = require('path');
 
 module.exports = {
     mode: "development",
-    entry: "./node_modules/ilib-localeinfo",
+    entry: "./src/webroot.js",
     output: {
         path: path.resolve(__dirname, 'test'),
         filename: "moduleTest.js",
@@ -37,8 +37,7 @@ module.exports = {
         "./RhinoLoader.js": "RhinoLoader",
         "./NashornLoader.js": "NashornLoader",
         "./RingoLoader.js": "RingoLoader",
-        "log4js": "log4js",
-        "nodeunit": "nodeunit"
+        "log4js": "log4js"
     },
     devtool: false,
     module: {

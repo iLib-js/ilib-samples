@@ -1,5 +1,5 @@
 /*
- * index.js - demonstrate the es6 modules based ilib packages
+ * webroot.js - root for the webpack module
  * 
  * Copyright © 2022, JEDLSoft
  *
@@ -19,13 +19,4 @@
 
 import LocaleInfo from 'ilib-localeinfo';
 
-if (process.argv.length < 2) {
-    console.log("Usage: index.mjs locale-spec");
-}
-
-const locale = process.argv[2];
-
-const li = new LocaleInfo(locale);
-
-console.log(`Locale information for locale ${locale}`);
-console.log(JSON.stringify(li, undefined, 4));
+export default LocaleInfo;

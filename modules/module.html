@@ -31,15 +31,23 @@ limitations under the License.
     <h1>iLib Module Test</h1>
     <script>
     var LocaleInfo = LocaleInfoModule.default;
-    ["en-US", "ko-KR", "zh-Hans-CN"].forEach((locale) => {
-        document.write(`<span>This is the locale info for locale ${locale}</span><p><span id="${locale}"></span><p>`);
+    function writeLocaleInfo(locale) {
+        //document.write(`<span>This is the locale info for locale ${locale}</span><p><span id="${locale}"></span><p>`);
         // the webpack loader can only load ilib locale data asynchronously, so
         // use the create method to get the locale info in an asynch fashion
-        LocaleInfo.create(locale).then((li) => {
-            const container = document.getElementById(locale);
+        return LocaleInfo.create(locale).then((li) => {
+            const container = document.getElementById("li");
             container.innerHTML = "<pre>" + JSON.stringify(li, undefined, 4) + "</pre>";
         });
-    });
+    }
+    function getInfo() {
+        const value = document.getElementById("locale").value;
+        writeLocaleInfo(value);
+    }
     </script>
+    <form action="javascript:getInfo()">
+    <label for="locale">Enter a locale: </label><input type="text" id="locale"/><input type="submit"/>
+    </form>
+    <span id="li"></span>
   </body>
 </html>
