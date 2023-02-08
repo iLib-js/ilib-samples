@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+  <file original="src/prime.py" source-language="en-US" product-name="lint-test">
+    <body>
+      <trans-unit id="1" resname="My name is %(name)s and I am %(age)d years old." restype="string" datatype="python">
+        <source>My name is %(name)s and I am %(age)d years old.</source>
+        <target state="translated">Mein Name ist %(name)s und ich bin %(age)d Jahre alt.</target>
+      </trans-unit>
+      <trans-unit id="1" resname="My name is %(name3)s and I am %(age3)d years old." restype="string" datatype="python">
+        <source>My name is %(name3)s and I am %(age3)d years old.</source>
+        <target state="translated">Mein Name ist %(name)3)s und ich bin %(age3)d Jahre alt.</target>
+      </trans-unit>
+      <trans-unit id="2" resname="My name is $name and I am $age years old." restype="string" datatype="python">
+        <source>My name is $name and I am $age years old.</source>
+        <target state="translated">Mein Name ist $name und ich bin %(age)d Jahre alt.</target>
+      </trans-unit>
+      <trans-unit id="3" resname="My name is %s and I am %d years old." restype="string" datatype="python">
+        <source>My name is %s and I am %d years old.</source>
+        <target state="translated">Mein Name ist %(name)s und ich bin %(age)d Jahre alt.</target>
+      </trans-unit>
+      <trans-unit id="4" resname="My name is %s and I am %d years old." restype="string" datatype="python">
+        <source>My name is {name} and I am {age} years old.</source>
+        <target state="translated">Mein Name ist %(name)s und ich bin %(age)d Jahre alt.</target>
+      </trans-unit>
+      <trans-unit id="5" resname="My name is &quot;{name}&quot; and I am {age} years old." restype="string" datatype="python">
+        <source>My name is "{name}" and I am {age} years old.</source>
+        <target state="translated">Mein Name ist {name} und ich bin %(age)d Jahre alt.</target>
+      </trans-unit>
+      <trans-unit id="4" resname="My name is %1$s and I am %2$d years old." restype="string" datatype="python">
+        <source>My name is %1$s and I am %2$d years old.</source>
+        <target state="translated">Mein Name ist %3$d und ich bin %1$s Jahre alt.</target>
+      </trans-unit>
+      <trans-unit id="4" resname="My name is %s and I am %s years old." restype="string" datatype="python">
+        <source>My name is %s and I am %s years old.</source>
+        <target state="translated">Mein Name ist %s und ich bin %s Jahre alt.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

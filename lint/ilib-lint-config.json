@@ -1,0 +1,26 @@
+{
+    "name": "lint-test",
+    "plugins": [
+        "python",
+        "python-gnu"
+    ],
+    "locales": [
+        "en-US",
+        "de-DE"
+    ],
+    "filetypes": {
+        "xliff": {
+            "ruleset": [ "python", "python-gnu" ]
+        }
+    },
+    "paths": {
+        "xliffs/*.xliff": "xliff"
+    },
+    "excludes": [
+        "**/.git",
+        "**/node_modules",
+        "**/.svn",
+        "package.json",
+        "package-lock.json"
+    ]
+}
