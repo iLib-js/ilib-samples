@@ -4,7 +4,8 @@
   "description": "iLib Sample on nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo success"
   },
   "author": {
     "name": "Goun Lee",
@@ -13,6 +14,6 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "ilib": "^14.14.0"
+    "ilib": "^14.17.0"
   }
 }
