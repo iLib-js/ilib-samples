@@ -54,7 +54,7 @@
     },
     "devDependencies": {
         "ilib-lint": "^1.3.0",
-        "ilib-lint-python": "^1.0.0",
-        "ilib-lint-python-gnu": "^1.0.0"
+        "ilib-lint-python": "^1.0.2",
+        "ilib-lint-python-gnu": "^1.1.0"
     }
 }
