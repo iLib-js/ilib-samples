@@ -8,9 +8,17 @@
         "en-US",
         "de-DE"
     ],
+    "rulesets": {
+        "generic": {
+            "resource-quote-style": true,
+            "resource-unique-keys": true,
+            "resource-url-match": true,
+            "resource-state-checker": "translated"
+        }
+    },
     "filetypes": {
         "xliff": {
-            "ruleset": [ "python", "python-gnu" ]
+            "ruleset": [ "generic", "python", "python-gnu" ]
         }
     },
     "paths": {
