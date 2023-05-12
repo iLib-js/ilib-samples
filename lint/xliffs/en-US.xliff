@@ -11,7 +11,7 @@
       <trans-unit id="3" resname="My name is %s and I am %d years old." restype="string" datatype="python">
         <source>My name is %s and I am %d years old.</source>
       </trans-unit>
-      <trans-unit id="4" resname="My name is %s and I am %d years old." restype="string" datatype="python">
+      <trans-unit id="4" resname="My name is {name} and I am {age} years old." restype="string" datatype="python">
         <source>My name is {name} and I am {age} years old.</source>
       </trans-unit>
       <trans-unit id="5" resname="My name is &quot;{name}&quot; and I am {age} years old." restype="string" datatype="python">

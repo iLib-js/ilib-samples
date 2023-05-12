@@ -2,7 +2,8 @@
     "name": "lint-test",
     "plugins": [
         "python",
-        "python-gnu"
+        "python-gnu",
+        "react"
     ],
     "locales": [
         "en-US",
@@ -17,12 +18,20 @@
         }
     },
     "filetypes": {
+        "jsx": {
+            "ruleset": [ "generic", "react" ]
+        },
+        "python" : {
+            "ruleset": [ "generic", "python", "python-gnu" ]
+        },
         "xliff": {
             "ruleset": [ "generic", "python", "python-gnu" ]
         }
     },
     "paths": {
-        "xliffs/*.xliff": "xliff"
+        "xliffs/*.xliff": "xliff",
+        "src/**/*.py": "python",
+        "src/**/*.jsx": "jsx"
     },
     "excludes": [
         "**/.git",
