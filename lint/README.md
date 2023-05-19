@@ -57,6 +57,11 @@ limitations under the License.
 
 ## Release Notes
 
+### v1.1.0
+
+- added more sample problems in the xliff files
+- updated dependencies
+
 ### v1.0.0
 
 - Initial version
