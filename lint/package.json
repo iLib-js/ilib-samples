@@ -53,14 +53,10 @@
         "clean": "git clean -f -d *",
         "test": "echo success"
     },
-    "devDependencies": {
-        "ilib-lint": "file:../../i18nlint/ilib-lint-1.4.0.tgz",
-        "ilib-lint-python": "^1.0.2",
-        "ilib-lint-python-gnu": "^1.1.0"
-    },
     "dependencies": {
-        "i18nlint-common": "file:../../i18nlint-common/i18nlint-common-1.4.0.tgz",
-        "ilib-lint-react": "file:../../ilib-lint-react/ilib-lint-react-1.0.0.tgz",
-        "ilib-tools-common": "file:../../ilib-tools-common/ilib-tools-common-1.5.0.tgz"
+        "ilib-lint": "^1.6.1",
+        "ilib-lint-python": "^1.1.0",
+        "ilib-lint-python-gnu": "^1.2.0",
+        "ilib-lint-react": "^1.0.0"
     }
 }
