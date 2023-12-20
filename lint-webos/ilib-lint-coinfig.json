@@ -11,21 +11,12 @@
     "plugins": [
     ],
     "rulesets": {
-        "javascript-rules": {
-            "source-no-normalize": true,
-            "my-other-rule": false
-        },
         "webos-translation-rules": { // you can also define rulesets in the webos plugin
             "rule": true,
             "resource-quote-style": true
         }
     },
     "filetypes":{
-        "javascript": {
-            "ruleset": [
-                "javascript-rules" // choose the rulesets by the ruleset name
-            ]
-        },
         "xliff" : {  // last two will be defined by the webos plugin
             "ruleset": [ 
                 /*"source",*/ "webos-translation-rules"
