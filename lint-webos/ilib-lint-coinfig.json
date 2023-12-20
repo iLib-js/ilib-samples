@@ -1,6 +1,6 @@
 {
     "name": "settings-lint",
-    //"sourceLocale": "en-KR",
+    "sourceLocale": "en-KR",
     "locales": [
         "en-US",
         "de-DE",
@@ -33,6 +33,6 @@
         }
     },
     "paths": {
-        "**/[a-z][a-z]*.xliff": "xliff"  // this specifies the file type by file type name
+        "**/[a-z][a-z]*-([A-Z][A-Z]).xliff": "xliff"  // this specifies the file type by file type name
     }
 }
