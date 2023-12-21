@@ -12,8 +12,10 @@
     ],
     "rulesets": {
         "webos-translation-rules": { // you can also define rulesets in the webos plugin
-            "rule": true,
-            "resource-quote-style": true
+           "resource-unique-keys": true,
+           "resource-named-params": true,
+           "resource-url-match": true,
+           "resource-quote-style": true
         }
     },
     "filetypes":{
