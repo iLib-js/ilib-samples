@@ -11,7 +11,7 @@
     "plugins": [
     ],
     "rulesets": {
-        "webos-translation-rules": { // you can also define rulesets in the webos plugin
+        "webos-translation-rules": {
            "resource-unique-keys": true,
            "resource-named-params": true,
            "resource-url-match": true,
@@ -19,13 +19,13 @@
         }
     },
     "filetypes":{
-        "xliff" : {  // last two will be defined by the webos plugin
+        "xliff" : {
             "ruleset": [ 
-                /*"source",*/ "webos-translation-rules"
+                "webos-translation-rules"
             ]
         }
     },
     "paths": {
-        "**/[a-z][a-z]*-([A-Z][A-Z]).xliff": "xliff"  // this specifies the file type by file type name
+        "**/[a-z][a-z]*-([A-Z][A-Z]).xliff": "xliff"
     }
 }
