@@ -1,0 +1,31 @@
+{
+    "name": "settings-lint",
+    "sourceLocale": "en-KR",
+    "locales": [
+        "en-US",
+        "de-DE",
+        "ja-JP",
+        "ko-KR",
+        "am-ET"
+    ],
+    "plugins": [
+    ],
+    "rulesets": {
+        "webos-translation-rules": {
+           "resource-unique-keys": true,
+           "resource-named-params": true,
+           "resource-url-match": true,
+           "resource-quote-style": true
+        }
+    },
+    "filetypes":{
+        "xliff" : {
+            "ruleset": [ 
+                "webos-translation-rules"
+            ]
+        }
+    },
+    "paths": {
+        "**/[a-z][a-z]*-([A-Z][A-Z]).xliff": "xliff"
+    }
+}
