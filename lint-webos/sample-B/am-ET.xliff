@@ -104,7 +104,7 @@
    <unit id="sample-B_806">
     <segment>
      <source>HDMI{port1} port support UHD Deep Color.</source>
-     <target>HDMI{port1} የ ULTRA HD Deep Color የሚደግፍ።</target>
+     <target>HDMI{port1 የ ULTRA HD Deep Color የሚደግፍ።</target>
     </segment>
    </unit>
    <unit id="sample-B_1034">
