@@ -3,18 +3,12 @@
  <file id="sample-B_f1" original="sample-B">
   <group id="sample-B_g1" name="javascript">
    <unit id="sample-B_1">
-    <notes>
-     <note>[24Init_3rd][Settings_General ]settings_general_901</note>
-    </notes>
     <segment>
      <source>{%1} hour(s)</source>
      <target>{%1} 시간</target>
     </segment>
    </unit>
    <unit id="sample-B_2">
-    <notes>
-     <note>[24Init_3rd][Settings_General ]settings_general_899</note>
-    </notes>
     <segment>
      <source>{%1} min(s)</source>
      <target>{%1} 분</target>
@@ -51,9 +45,6 @@
     </segment>
    </unit>
    <unit id="sample-B_99">
-    <notes>
-     <note>(복사금지) help string</note>
-    </notes>
     <segment>
      <source>Suitable for children ages 2-7.</source>
      <target>2~7세 어린이가 시청하기에 적합합니다.</target>
@@ -66,18 +57,12 @@
     </segment>
    </unit>
    <unit id="sample-B_213">
-    <notes>
-     <note>[webOS 3.0] Speaker List help string.</note>
-    </notes>
     <segment>
      <source>Display list of B&amp;O Wireless Speakers that can be connected to your TV.</source>
      <target>Display list of B&amp;O Wireless Speakers that can be connected to your TV.</target>
     </segment>
    </unit>
    <unit id="sample-B_273">
-    <notes>
-     <note>(복사금지) help strings</note>
-    </notes>
     <segment>
      <source>HDMI {port1} and HDMI {port2} ports support ULTRA HD Deep Color.</source>
      <target>HDMI {port1}, HDMI {port2} 단자는 UHD Deep Color를 지원하며, 이 기능을 켜거나 끌 수 있습니다.</target>
@@ -93,9 +78,6 @@
     </segment>
    </unit>
    <unit id="sample-B_371">
-    <notes>
-     <note>This is a popup body message after the service country changed when not connected network</note>
-    </notes>
     <segment>
      <source>Your TV needs to be connected to the network to automatically set your LG Services Country. Do you want to go to Network Settings now to check the connection?</source>
      <target>LG 서비스 국가를 자동으로 설정하려면 네트워크에 연결해야 합니다. '네트워크 설정'으로 이동해 연결 상태를 확인하시겠습니까?</target>
@@ -103,7 +85,7 @@
    </unit>
    <unit id="sample-B_426">
     <notes>
-     <note>Settings_General  63</note>
+     <note>Settings_General</note>
     </notes>
     <segment>
      <source>If you turn off 'Quick Start+', you will not be able to turn on your TV with Remote Free Control. Would you like to continue?</source>
@@ -129,117 +111,78 @@
     </segment>
    </unit>
    <unit id="sample-B_3530">
-    <notes>
-     <note>[22MR3_1]_flex_bendable_46</note>
-    </notes>
     <segment>
      <source>Set the current curvature mode 'Off' to omit its value from the curvature button on the remote control.</source>
      <target>해당 곡률 모드가 '사용 안 함'으로 설정되면, 리모컨의 곡률 조정 설정에서도 제외됩니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3538">
-    <notes>
-     <note>flex_bendable_52</note>
-    </notes>
     <segment>
      <source>* Note that this feature is not available when 'Audio Guidance' is on.</source>
      <target>* 단, '음성으로 메뉴 읽어주기'가 켜져 있으면 이 기능을 사용할 수 없습니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3582">
-    <notes>
-     <note>[23Initial_1]_settings_sound_490</note>
-    </notes>
     <segment>
      <source>To change Sound Out setting from 'Bluetooth device + TV Speakers', you need to connect Bluetooth device again.</source>
      <target>'블루투스 기기 + TV 스피커'에서 출력 스피커를 변경할 경우, 블루투스 기기 재연결이 필요합니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3590">
-    <notes>
-     <note>[23Initial_1]_settings_general_637</note>
-    </notes>
     <segment>
      <source>You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</source>
      <target>'올레드 케어 > 케어 화면 설정' 사용 중에는 절전 단계를 설정할 수 없습니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3592">
-    <notes>
-     <note>[23Initial_2nd] Settings_General(settings_general_647)/Quick Media Switching 도움말 문구</note>
-    </notes>
     <segment>
      <source>This switches the screen softly without interruptions when other contents with different FPS (Frame Per Second) are played in external devices supporting QMS.</source>
      <target>QMS를 지원하는 외부 기기에서 초당 프레임수(FPS, Frame Per Second)가 다른 콘텐츠가 재생될 때 화면 끊김 없이 부드럽게 전환해 줍니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3593">
-    <notes>
-     <note>[23Initial_2nd] Settings_General(settings_general_648)/4:4:4 Bypass 도움말 문구 1/2 노이즈 제거, 빠른 화면 맞춤(북미법인 가이드) Send 4:4:4 signals to the TV outside of PC Mode but processing features like Noise Reduction, Trumotion, and more may be bypassed. This setting is suggested only for content creators who wish to send a signal that does not need additional processing.</note>
-    </notes>
     <segment>
      <source>Picture quality processing such as 'Noise Reduction' and 'Trumotion' may not be applied when inputting HDMI PC signals.</source>
      <target>HDMI PC 신호를 입력할 때 '노이즈 제거', '빠른 화면 맞춤' 등의 화질 처리가 적용되지 않을 수도 있습니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3605">
-    <notes>
-     <note>[23Initial_2nd] Settings_Sound(settings_sound_517)/LG Sound Mode Share 기능 및 하모니 기능 자동 켜짐 시 사운드 모드 메뉴명</note>
-    </notes>
     <segment>
      <source>Select Mode({mode})</source>
      <target>모드 선택({mode})</target>
     </segment>
    </unit>
    <unit id="sample-B_3629">
-    <notes>
-     <note>Settings_Sound/settings_sound_532/HDMI ARC + TV speaker 도움말 문구 2 (23년)</note>
-    </notes>
     <segment>
      <source>* Connect a Sound Bar supporting {lgHarmony}, or for users with different levels of hearing impairment, go to 'General > Accessibility > Enjoy TV Sound Together > HDMI(ARC) Device' and set the HDMI(ARC) Device.</source>
      <target>* {lgHarmony} 지원하는 사운드 바를 연결하거나, 청력이 다른 사용자의 경우 '일반 > 접근성 > TV 소리 함께 듣기 > HDMI(ARC) 기기'를 설정하면 사용할 수 있습니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3631">
-    <notes>
-     <note>copied strings by [WEBOSLOCAL-8227]</note>
-    </notes>
     <segment>
      <source>'Personalized Picture Wizard' can be set based on the your preference determined by an analysis of image quality attributes such as brightness, color and contrast using AI deep learning technology.</source>
      <target>AI 딥러닝 기술을 활용해 좋아하는 밝기, 색, 명암 등 화질을 분석해 화면 모드를 '맞춤 화면'으로 설정할 수 있습니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3695">
-    <notes>
-     <note>(- TV 화면과의 거리는 하단 약 {%1}m, 정면 약 {%2}m, 측/후면 약 {%3}m 이내를 권장합니다. - Mprj_21)</note>
-    </notes>
     <segment>
      <source>- It is recommended to place the Zero Connect Box within {%1} m from the bottom, {%2} m from the front, and {%3} m from the side of the TV screen.</source>
      <target>- TV 화면과의 거리는 하단 약 {%1}m, 정면 약 {%2}m, 측면 약 {%3}m 이내를 권장합니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3729">
-    <notes>
-     <note>[24Init_1st][AI Recommendation (in settings)]In_Settings_Nudge_039</note>
-    </notes>
     <segment>
-     <source>"Hi LG, I need help!"</source>
-     <target>"하이 엘지, 도와줘"</target>
+     <source>"Hi, I need help!"</source>
+     <target>"하이 , 도와줘"</target>
     </segment>
    </unit>
    <unit id="sample-B_3730">
-    <notes>
-     <note>[24Init_1st][Settings_Picture]Settings_picture_410</note>
-    </notes>
     <segment>
      <source>* Professional settings allow you to fine-tune the expression of a variety of mastering contents.</source>
      <target>* 전문가용 설정을 통해 여러 마스터링 콘텐츠의 표현력을 세부 조절할 수 있습니다.</target>
     </segment>
    </unit>
    <unit id="sample-B_3804">
-    <notes>
-     <note>[24Init_2nd][Settings_General]settings_general_763</note>
-    </notes>
     <segment>
      <source>Captions will automatically switch to a position that may not interfere with your viewing when set to 'auto'.</source>
      <target>'자동'으로 설정하면, 시청에 방해되지 않는 위치로 자동 변경됩니다.</target>
