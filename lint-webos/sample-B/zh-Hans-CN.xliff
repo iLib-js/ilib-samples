@@ -222,9 +222,6 @@
     </segment>
    </unit>
    <unit id="sample-B_3802">
-    <notes>
-     <note>[24Init_3rd][sample-B_General ]sample-B_general_900</note>
-    </notes>
     <segment>
      <source>{%1} hour {%2} min(s)</source>
      <target>{%1} 小时 {%2} 分钟</target>

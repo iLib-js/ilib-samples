@@ -176,12 +176,6 @@
      <target>* 「機器設定」 > 「いつでもOK」の使用状況によって、動作は異なります。</target>
     </segment>
    </unit>
-   <unit id="sample-B_3573">
-    <segment>
-     <source>({mode})</source>
-     <target>({mode})</target>
-    </segment>
-   </unit>
    <unit id="sample-B_3574">
     <segment>
      <source>({mode1} &amp; {mode2})</source>

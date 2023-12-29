@@ -14,12 +14,6 @@
      <target>{%1} 분</target>
     </segment>
    </unit>
-   <unit id="sample-B_4">
-    <segment>
-     <source>USB {portNum}: {vendorName}</source>
-     <target>USB {portNum}: {vendorName}</target>
-    </segment>
-   </unit>
    <unit id="sample-B_23">
     <notes>
      <note>popup text - {Device} :Devive Name</note>
@@ -84,9 +78,6 @@
     </segment>
    </unit>
    <unit id="sample-B_426">
-    <notes>
-     <note>Settings_General</note>
-    </notes>
     <segment>
      <source>If you turn off 'Quick Start+', you will not be able to turn on your TV with Remote Free Control. Would you like to continue?</source>
      <target>TV 빨리 켜기 기능을 끄면 원거리 음성인식으로 TV를 켤 수 없습니다. 계속하시겠습니까?</target>
@@ -198,15 +189,6 @@
     <segment>
      <source>You must be at least [age] years old to proceed.</source>
      <target>계속 진행하려면 [age]세 이상이어야 합니다.</target>
-    </segment>
-   </unit>
-   <unit id="sample-B_1">
-    <notes>
-     <note>Text for help of device control</note>
-    </notes>
-    <segment>
-     <source>"OK Google, talk to LG, channel up on TV".</source>
-     <target>"OK Google, talk to LG, channel up on TV".</target>
     </segment>
    </unit>
   </group>
