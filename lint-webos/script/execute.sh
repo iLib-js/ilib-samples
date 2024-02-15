@@ -16,5 +16,5 @@ do
 done
 END_TIME=$(date +%s)
 
-echo "It took $(($END_TIME - $START_TIME)) seconds to run the tool..."
+echo "It took $(($END_TIME - $START_TIME)) seconds to check xliff files of all app ..."
 echo "----------------- Done -- --------------- "
