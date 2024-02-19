@@ -5,8 +5,10 @@ DIR = /home/goun/Source/swp/localization-data
 CONFIG = /home/goun/Source/swp/lintScript/ilib-lint-config.json
 ./execute.sh ~/Source/swp/localization-data/ ~/Source/swp/lintScript/ilib-lint-config.json
 END
+
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
+
 DIR=${1?param missing - Specify the localization-data path }
 CONFIG=${2?param missing - Specify the ilib-llint-config.json file path }
 cd $DIR
@@ -40,8 +42,8 @@ do
 done
 
 END_TIME=$(date +%s)
-# restore $IFS
-IFS=$SAVEIFS
-
 echo "<<< It took $(($END_TIME - $START_TIME)) seconds to check xliff files of all app ... >>>"
 echo "---------------------------------- Done ----------------------------------"
+
+#restore $IFS(Internal Field Separator)
+IFS=$SAVEIFS
