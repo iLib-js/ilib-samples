@@ -3,7 +3,7 @@
 : <<'END'
 DIR = /home/goun/Source/swp/localization-data
 CONFIG = /home/goun/Source/swp/lintScript/ilib-lint-config.json
-./execute.sh ~/Source/swp/localization-data/ ~/Source/swp/lintScript/ilib-lint-config.json 
+./execute.sh ~/Source/swp/localization-data/ ~/Source/swp/lintScript/ilib-lint-config.json
 END
 
 DIR=${1?param missing - Specify the localization-data path }
@@ -14,6 +14,7 @@ appCnt=0
 invalidCnt=0
 START_TIME=$(date +%s)
 arrInvalidDir=()
+
 for appDir in `find . -type d`
 do
   if [ "$appDir" == "." ]; then
@@ -34,7 +35,7 @@ do
     cd $appDir
     appCnt=$((appCnt+1))
     echo "<<< ("$appCnt")" $appDir " >>>"
-    node ~/Source/ilib-lint/src/index.js -c $CONFIG -i
+    node /home/goun/Source/node_modules/.bin/ilib-lint -c $CONFIG -i
     cd ..
     echo "==========================================================================="
   fi
