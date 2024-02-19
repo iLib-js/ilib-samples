@@ -24,9 +24,9 @@ do
     arrInvalidDir+=($appDir)
   elif [ "$appDir" == "./Enact" ]; then
     arrInvalidDir+=($appDir)
-  elif [ "$appDir" == "./chromecast" ]; then
-    arrInvalidDir+=($appDir)
   elif [ "$appDir" == "Framework" ]; then
+    arrInvalidDir+=($appDir)
+  elif [ "$appDir" == "./chromecast" ]; then
     arrInvalidDir+=($appDir)
   elif [ "$appDir" == "built-in" ]; then
     arrInvalidDir+=($appDir)
@@ -39,7 +39,9 @@ do
     echo "==========================================================================="
   fi
 done
-echo "<<< ("invalidCnt")" ${#arrInvalidDir[@]} " >>>"
+
+echo "---------------------------------------------------------------------------"
+echo "[[ "Number of invalid Directory":" ${#arrInvalidDir[@]} " ]]"
 for value in "${arrInvalidDir[@]}"
 do
   echo "[" $value "] "
@@ -47,5 +49,5 @@ done
 
 END_TIME=$(date +%s)
 
-echo "It took $(($END_TIME - $START_TIME)) seconds to check xliff files of all app ..."
-echo "----------------- Done ------------------"
+echo "<<< It took $(($END_TIME - $START_TIME)) seconds to check xliff files of all app ... >>>"
+echo "---------------------------------- Done ----------------------------------"
