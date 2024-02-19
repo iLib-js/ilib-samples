@@ -42,6 +42,7 @@ do
 done
 
 END_TIME=$(date +%s)
+echo "[[ "Number of valid Directory":" $appCnt " ]]"
 echo "<<< It took $(($END_TIME - $START_TIME)) seconds to check xliff files of all app ... >>>"
 echo "---------------------------------- Done ----------------------------------"
 
