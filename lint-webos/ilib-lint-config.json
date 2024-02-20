@@ -1,21 +1,23 @@
-{
-    "name": "settings-lint",
+ {
+    "name": "webOS-lint",
     "sourceLocale": "en-KR",
-    "locales": [
-        "en-US",
-        "de-DE",
-        "ja-JP",
-        "ko-KR",
-        "am-ET"
-    ],
-    "plugins": [
-    ],
+    "locales": [],
+    "plugins": [],
     "rulesets": {
         "webos-translation-rules": {
-           "resource-unique-keys": true,
-           "resource-named-params": true,
-           "resource-url-match": true,
-           "resource-quote-style": true
+            "resource-url-match": true,
+            "resource-named-params": true,
+            "resource-quote-style": true,
+            "resource-unique-keys": true,
+            "resource-edge-whitespace": true,
+            "resource-completeness": true,
+            "resource-no-fullwidth-latin": true,
+            "resource-no-fullwidth-digits": true,
+            "resource-no-fullwidth-punctuation-subset": true,
+            "resource-no-space-between-double-and-single-byte-character": true,
+            "resource-no-halfwidth-kana-characters": true,
+            "resource-no-double-byte-space": true,
+            "resource-no-space-with-fullwidth-punctuation": true
         }
     },
     "filetypes":{
