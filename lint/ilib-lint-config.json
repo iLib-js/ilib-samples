@@ -19,10 +19,12 @@
     },
     "filetypes": {
         "jsx": {
-            "ruleset": [ "generic", "react" ]
+            "parsers": [ "JSXParser" ],
+            "ruleset": [ "generic", "react", "source" ]
         },
         "python" : {
-            "ruleset": [ "generic", "python", "python-gnu" ]
+            // "parsers": [ "PythonParser" ],
+            "ruleset": [ "generic", "python", "python-gnu", "source" ]
         },
         "xliff": {
             "ruleset": [ "generic", "python", "python-gnu" ]

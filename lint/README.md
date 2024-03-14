@@ -3,9 +3,8 @@
 A sample to demonstrate how to call and use the ilib-lint tool to find
 i18n problems in your code.
 
-For now, the lint tool can only check for problems in xliff files. As it
-matures, it will be able to check for problems in source files of various
-types based on plugins.
+The lint tool can check for problems in xliff files, or in source files 
+of various types, based on plugins.
 
 # Usage
 
@@ -40,7 +39,7 @@ example of this file.
 
 ## License
 
-Copyright © 2023, JEDLSoft
+Copyright © 2023-2024, JEDLSoft
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -56,6 +55,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ## Release Notes
+
+### v2.0.0
+
+- added support for ilib-lint v2.0.0
+- can now parse source code files and lint them as well, not just
+  xliff files
+    - included a sample jsx file parsed by the JSXParser provided
+	  by the ilib-lint-react plugin, and using rules implemented
+	  in the same plugin
 
 ### v1.1.0
 
