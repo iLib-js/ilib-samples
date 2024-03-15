@@ -48,12 +48,12 @@
         "url": "git@github.com:iLib-js/iLib-sample.git"
     },
     "scripts": {
-        "lint": "ilib-lint -c ilib-lint-config.json",
-        "debug": "node --inspect-brk node_modules/ilib-lint/src/index.js -c ilib-lint-config.json",
+        "lint": "ilib-lint -c ilib-lint-config.json -f html-console-formatter",
+        "debug": "node --inspect-brk node_modules/ilib-lint/src/index.js -c ilib-lint-config.json -f html-console-formatter",
         "clean": "git clean -f -d *",
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-lint": "^1.13.1"
+        "ilib-lint": "^2.0.0"
     }
 }
