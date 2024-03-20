@@ -54,6 +54,7 @@
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-lint": "^2.0.0"
+        "ilib-lint": "^2.0.0",
+        "ilib-lint-webos": "^1.0.0"
     }
 }
