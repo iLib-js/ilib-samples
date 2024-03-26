@@ -4,422 +4,425 @@
 <title>ilib-lint Result for webOS Apps</title>
 </head>
 <body>
-<p style="color:#714AFF;text-align:left;font-size:30px;font-weight:bold" width=300px;> [webOS-lint] Sumarry</p>
+<p style="color:#714AFF;text-align:left;font-size:30px;font-weight:bold" width=300px;> [webOS-lint] Summary</p>
 <table>
 <thead>
-<tr><td style="font-size:20px">Total Elapse Time</td>
-<td style="font-size:20px;color:green;font-weight:bold">0.107seconds</td></tr>
+<tr><td style="font-size:20px">Total Elapsed Time : </td>
+<td style="font-size:20px;color:green;font-weight:bold">0.101seconds</td></tr>
 <tr><td></td><td></td>
-<td width=150px;>Average over</td>
-<td width=150px;>Average over</td>
-<td width=150px;>Average over</td>
+<td style="border-bottom:2px solid #ddd;"width=150px;>Average over</td>
+<td style="border-bottom:2px solid #ddd;"width=150px;>Average over</td>
+<td style="border-bottom:2px solid #ddd;"width=150px;>Average over</td>
 </tr><tr>
-<td></td><td>Total</td>
-<td>11 Files</td>
-<td>156 Modules</td>
-<td>1002 Lines</td></tr>
+<td></td><td style="border-bottom:2px solid #ddd;">Total</td>
+<td style="border-bottom:2px solid #ddd;">11 Files</td>
+<td style="border-bottom:2px solid #ddd;">156 Modules</td>
+<td style="border-bottom:2px solid #ddd;">1002 Lines</td></tr>
 <tr>
-<td style="font-size:20px">Errors:</td>
-<td style="font-size:20px;color:red">9</td>
-<td>0.818          </td>
-<td>0.058          </td>
-<td>0.009          </td>
+<td style="border-bottom:2px solid #ddd;font-size:20px">Errors:</td>
+<td style="border-bottom:2px solid #ddd;font-weight:bold;font-size:20px;color:red">9</td>
+<td style="border-bottom:2px solid #ddd;">0.818          </td>
+<td style="border-bottom:2px solid #ddd;">0.058          </td>
+<td style="border-bottom:2px solid #ddd;">0.009          </td>
 </tr><tr>
-<td style="font-size:20px">Warnings:</td>
-<td style="font-size:20px;color:orange">18</td>
-<td>1.636          </td>
-<td>0.115          </td>
-<td>0.018          </td>
+<td style="border-bottom:2px solid #ddd;font-size:20px">Warnings:</td>
+<td style="border-bottom:2px solid #ddd;font-weight:bold;font-size:20px;color:orange">18</td>
+<td style="border-bottom:2px solid #ddd;">1.636          </td>
+<td style="border-bottom:2px solid #ddd;">0.115          </td>
+<td style="border-bottom:2px solid #ddd;">0.018          </td>
 </tr><tr>
 <td>Suggestions:</td>
-<td>0</td>
-<td>0              </td>
-<td>0              </td>
-<td>0              </td>
+<td style="border-bottom:2px solid #ddd;">0</td>
+<td style="border-bottom:2px solid #ddd;">0              </td>
+<td style="border-bottom:2px solid #ddd;">0              </td>
+<td style="border-bottom:2px solid #ddd;">0              </td>
 </tr><tr>
-<td>I18N Score(0-100)</td>
-<td>61.176</td>
+<td style="border-bottom:2px solid #ddd;">I18N Score(0-100)</td>
+<td style="border-bottom:2px solid #ddd;">61.176</td>
+<td style="border-bottom:2px solid #ddd;"></td>
+<td style="border-bottom:2px solid #ddd;"></td>
+<td style="border-bottom:2px solid #ddd;"></td>
 </tr>
 </thead>
 </table>
 <br/>
 <hr align="left" width="1100px"/>
-<p style="color:#714AFF;text-align:left;font-size:30px;font-weight:bold" width=320px; >Detailed Information</p>
+<p style="color:#714AFF;text-align:left;font-size:30px;font-weight:bold" width=320px;>Detailed Information</p>
 <table>
 <thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-A/de-DE.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >URL 'http://www.box.com' from the source string does not appear in the target string</td></tr>
-<tr><td>key</td><td>This string has multiple URLs in it: http://www.box.com and http://www.google.com</td></tr>
-<tr><td>source</td><td>This string has multiple URLs in it: http://www.box.com and http://www.google.com</td></tr>
-<tr><td>target</td><td>Target: This string is missing one URL: http://www.google.com<e0></e0></td></tr>
-<tr><td>resource-url-match</td><td>Ensure that URLs that appear in the source string are also used in the translated string</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-url-match.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-url-match.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
-<thead>
-<table>
-<br>
-<table>
-<thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-A/de-DE.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >The named parameter '{params}' from the source string does not appear in the target string</td></tr>
-<tr><td>key</td><td>This string has multiple {params} in it: {sub}</td></tr>
-<tr><td>source</td><td>This string has multiple {params} in it: {sub}</td></tr>
-<tr><td>target</td><td>Target: This string is missing one URL: {sub}<e0></e0></td></tr>
-<tr><td>resource-named-params</td><td>Ensure that named parameters that appear in the source string are also used in the translated string</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-named-params.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-named-params.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-A/de-DE.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">URL 'http://www.box.com' from the source string does not appear in the target string</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">This string has multiple URLs in it: http://www.box.com and http://www.google.com</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">This string has multiple URLs in it: http://www.box.com and http://www.google.com</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: This string is missing one URL: http://www.google.com<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-url-match</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that URLs that appear in the source string are also used in the translated string</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-url-match.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-url-match.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/am-ET.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >The named parameter '{port1}' from the source string does not appear in the target string</td></tr>
-<tr><td>key</td><td>HDMI{port1} port support UHD Deep Color.</td></tr>
-<tr><td>source</td><td>HDMI{port1} port support UHD Deep Color.</td></tr>
-<tr><td>target</td><td>Target: HDMI{port1 የ ULTRA HD Deep Color የሚደግፍ።<e0></e0></td></tr>
-<tr><td>resource-named-params</td><td>Ensure that named parameters that appear in the source string are also used in the translated string</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-named-params.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-named-params.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-A/de-DE.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">The named parameter '{params}' from the source string does not appear in the target string</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">This string has multiple {params} in it: {sub}</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">This string has multiple {params} in it: {sub}</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: This string is missing one URL: {sub}<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-named-params</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that named parameters that appear in the source string are also used in the translated string</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-named-params.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-named-params.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/am-ET.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Trailing whitespace in target does not match trailing whitespace in source</td></tr>
-<tr><td>key</td><td>You can use your Magic Remote to determine the room’s acoustics and optimize your TV’s sound quality based on the results.</td></tr>
-<tr><td>source</td><td>You can use your Magic Remote to determine the room’s acoustics and optimize your TV’s sound quality based on the results.</td></tr>
-<tr><td>target</td><td>Source: …lts.<e0></e0> Target: …ላሉ፡፡<e1>⎵</e1></td></tr>
-<tr><td>resource-edge-whitespace</td><td>Ensure that if there are whitespaces on edges of source string, matching ones are there in target as well</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-edge-whitespace.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-edge-whitespace.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/am-ET.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">The named parameter '{port1}' from the source string does not appear in the target string</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">HDMI{port1} port support UHD Deep Color.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">HDMI{port1} port support UHD Deep Color.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: HDMI{port1 የ ULTRA HD Deep Color የሚደግፍ።<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-named-params</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that named parameters that appear in the source string are also used in the translated string</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-named-params.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-named-params.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>Set the current curvature mode 'Off' to omit its value from the curvature button on the remote control.</td></tr>
-<tr><td>source</td><td>Set the current curvature mode 'Off' to omit its value from the curvature button on the remote control.</td></tr>
-<tr><td>target</td><td>Target: リモコンの曲面ボタンから曲面モードの値を削除する場合は、現在の曲面モードを[オフ]に設定します。<e0></e0></td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/am-ET.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Trailing whitespace in target does not match trailing whitespace in source</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">You can use your Magic Remote to determine the room’s acoustics and optimize your TV’s sound quality based on the results.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">You can use your Magic Remote to determine the room’s acoustics and optimize your TV’s sound quality based on the results.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Source: …lts.<span style="color:red"></span> Target: …ላሉ፡፡<span style="color:red">⎵</span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-edge-whitespace</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that if there are whitespaces on edges of source string, matching ones are there in target as well</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-edge-whitespace.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-edge-whitespace.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>* Note that this feature is not available when 'Audio Guidance' and 'TV Power Sound' is on.</td></tr>
-<tr><td>source</td><td>* Note that this feature is not available when 'Audio Guidance' and 'TV Power Sound' is on.</td></tr>
-<tr><td>target</td><td>Target: * この機能は<e0>音</e0>$3声ガイダンス<e0>と</e0>$3「テレビ電源サウンド<e0>が</e0>$3オンの場合は使用できません。</td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Set the current curvature mode 'Off' to omit its value from the curvature button on the remote control.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Set the current curvature mode 'Off' to omit its value from the curvature button on the remote control.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: リモコンの曲面ボタンから曲面モードの値を削除する場合は、現在の曲面モードを[オフ]に設定します。<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>* Note that this feature is not available when 'Audio Guidance' is on.</td></tr>
-<tr><td>source</td><td>* Note that this feature is not available when 'Audio Guidance' is on.</td></tr>
-<tr><td>target</td><td>Target: * この機能は<e0>音</e0>$3声ガイダンス<e0>が</e0>$3オンの場合は使用できません。</td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* Note that this feature is not available when 'Audio Guidance' and 'TV Power Sound' is on.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* Note that this feature is not available when 'Audio Guidance' and 'TV Power Sound' is on.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: * この機能は<span style="color:red">音</span>$3声ガイダンス<span style="color:red">と</span>$3「テレビ電源サウンド<span style="color:red">が</span>$3オンの場合は使用できません。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
-<tr><td>source</td><td>* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
-<tr><td>target</td><td>Target: * <e0>機</e0>$3器設定<e1>」</e1> > <e0>い</e0>$3つでもOK<e1>」</e1>の使用状況によって、動作は異なります。</td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* Note that this feature is not available when 'Audio Guidance' is on.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* Note that this feature is not available when 'Audio Guidance' is on.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: * この機能は<span style="color:red">音</span>$3声ガイダンス<span style="color:red">が</span>$3オンの場合は使用できません。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</td></tr>
-<tr><td>source</td><td>You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</td></tr>
-<tr><td>target</td><td>Target: [OLED ケア > ケア映像設定]が有効のときは、省エネステップを設定できません。<e0></e0></td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: * <span style="color:red">機</span>$3器設定<span style="color:red">」</span> > <span style="color:red">い</span>$3つでもOK<span style="color:red">」</span>の使用状況によって、動作は異なります。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>'Personalized Picture Wizard' can be set based on the your preference determined by an analysis of image quality attributes such as brightness, color and contrast using AI deep learning technology.</td></tr>
-<tr><td>source</td><td>'Personalized Picture Wizard' can be set based on the your preference determined by an analysis of image quality attributes such as brightness, color and contrast using AI deep learning technology.</td></tr>
-<tr><td>target</td><td>Target: [パーソナル・ピクチャー・ウィザード]は、AIのディープラーニング技術によって、明るさ、色、コントラストの画質属性を分析し、お好みに合わせて映像を設定できます。<e0></e0></td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: [OLED ケア > ケア映像設定]が有効のときは、省エネステップを設定できません。<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>{%1}'s Personalized Picture</td></tr>
-<tr><td>source</td><td>{%1}'s Personalized Picture</td></tr>
-<tr><td>target</td><td>Target: {%1}のパーソナルな映像<e0></e0></td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">'Personalized Picture Wizard' can be set based on the your preference determined by an analysis of image quality attributes such as brightness, color and contrast using AI deep learning technology.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">'Personalized Picture Wizard' can be set based on the your preference determined by an analysis of image quality attributes such as brightness, color and contrast using AI deep learning technology.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: [パーソナル・ピクチャー・ウィザード]は、AIのディープラーニング技術によって、明るさ、色、コントラストの画質属性を分析し、お好みに合わせて映像を設定できます。<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>{iconNick}'s Personalized Picture</td></tr>
-<tr><td>source</td><td>{iconNick}'s Personalized Picture</td></tr>
-<tr><td>target</td><td>Target: {iconNick}のパーソナルな映像<e0></e0></td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">{%1}'s Personalized Picture</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">{%1}'s Personalized Picture</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: {%1}のパーソナルな映像<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quote style for the locale ja-JP should be 『text』</td></tr>
-<tr><td>key</td><td>Captions will automatically switch to a position that may not interfere with your viewing when set to 'Automatic'.</td></tr>
-<tr><td>source</td><td>Captions will automatically switch to a position that may not interfere with your viewing when set to 'Automatic'.</td></tr>
-<tr><td>target</td><td>Target: <e0>自</e0>$3動<e0>に</e0>$3設定すると、自動的に字幕が鑑賞の邪魔にならない位置に切り換わります。</td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quotes are missing in the target. Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">{iconNick}'s Personalized Picture</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">{iconNick}'s Personalized Picture</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: {iconNick}のパーソナルな映像<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >The full-width characters '１' are not allowed in the target string. Use ASCII digits instead.</td></tr>
-<tr><td>key</td><td>Clear Panel Noise will begin when you switch off your TV. If you're recording something or updating any software, it will wait until those are done as well, which might cause it to take more than 1 hour.</td></tr>
-<tr><td>source</td><td>Clear Panel Noise will begin when you switch off your TV. If you're recording something or updating any software, it will wait until those are done as well, which might cause it to take more than 1 hour.</td></tr>
-<tr><td>target</td><td>Target: テレビの電源をオフにすると、パネルノイズクリアが開始します。<br>録画中やソフトウェアのアップデート中は、それらが完了するまでパネルノイズクリアは開始しません。この場合、処理に<e0>１</e0>時間以上かかることがあります。</td></tr>
-<tr><td>resource-no-fullwidth-digits</td><td>Ensure that the target does not contain any full-width digits.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-digits.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-digits.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quote style for the locale ja-JP should be 『text』</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Captions will automatically switch to a position that may not interfere with your viewing when set to 'Automatic'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Captions will automatically switch to a position that may not interfere with your viewing when set to 'Automatic'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: <span style="color:red">自</span>$3動<span style="color:red">に</span>$3設定すると、自動的に字幕が鑑賞の邪魔にならない位置に切り換わります。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >The full-width characters '？' are not allowed in the target string. Use ASCII symbols instead.</td></tr>
-<tr><td>key</td><td>Do you want to disable Always Ready?</td></tr>
-<tr><td>source</td><td>Do you want to disable Always Ready?</td></tr>
-<tr><td>target</td><td>Target: いつでもOKを無効にしますか<e0>？</e0></td></tr>
-<tr><td>resource-no-fullwidth-punctuation-subset</td><td>Ensure that the target does not contain specific full-width punctuation: percent sign, question mark, or exclamation mark.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">The full-width characters '１' are not allowed in the target string. Use ASCII digits instead.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Clear Panel Noise will begin when you switch off your TV. If you're recording something or updating any software, it will wait until those are done as well, which might cause it to take more than 1 hour.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Clear Panel Noise will begin when you switch off your TV. If you're recording something or updating any software, it will wait until those are done as well, which might cause it to take more than 1 hour.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: テレビの電源をオフにすると、パネルノイズクリアが開始します。<br>録画中やソフトウェアのアップデート中は、それらが完了するまでパネルノイズクリアは開始しません。この場合、処理に<span style="color:red">１</span>時間以上かかることがあります。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-fullwidth-digits</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the target does not contain any full-width digits.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-digits.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-digits.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >The full-width characters '？' are not allowed in the target string. Use ASCII symbols instead.</td></tr>
-<tr><td>key</td><td>Do you want to change the sound out settings?</td></tr>
-<tr><td>source</td><td>Do you want to change the sound out settings?</td></tr>
-<tr><td>target</td><td>Target: スピーカー設定を変更しますか<e0>？</e0></td></tr>
-<tr><td>resource-no-fullwidth-punctuation-subset</td><td>Ensure that the target does not contain specific full-width punctuation: percent sign, question mark, or exclamation mark.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">The full-width characters '？' are not allowed in the target string. Use ASCII symbols instead.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Do you want to disable Always Ready?</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Do you want to disable Always Ready?</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: いつでもOKを無効にしますか<span style="color:red">？</span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-fullwidth-punctuation-subset</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the target does not contain specific full-width punctuation: percent sign, question mark, or exclamation mark.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >The full-width characters '！' are not allowed in the target string. Use ASCII symbols instead.</td></tr>
-<tr><td>key</td><td>"Hi, I need help!"</td></tr>
-<tr><td>source</td><td>"Hi, I need help!"</td></tr>
-<tr><td>target</td><td>Target: 「HiG、サポートをお願い<e0>！</e0>」</td></tr>
-<tr><td>resource-no-fullwidth-punctuation-subset</td><td>Ensure that the target does not contain specific full-width punctuation: percent sign, question mark, or exclamation mark.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">The full-width characters '？' are not allowed in the target string. Use ASCII symbols instead.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Do you want to change the sound out settings?</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Do you want to change the sound out settings?</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: スピーカー設定を変更しますか<span style="color:red">？</span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-fullwidth-punctuation-subset</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the target does not contain specific full-width punctuation: percent sign, question mark, or exclamation mark.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:red;text-align:left;font-size:22px; width=280px;>[error]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >The full-width characters '？' are not allowed in the target string. Use ASCII symbols instead.</td></tr>
-<tr><td>key</td><td>Do you want to disable {func}?</td></tr>
-<tr><td>source</td><td>Do you want to disable {func}?</td></tr>
-<tr><td>target</td><td>Target: {func}を無効にしますか<e0>？</e0></td></tr>
-<tr><td>resource-no-fullwidth-punctuation-subset</td><td>Ensure that the target does not contain specific full-width punctuation: percent sign, question mark, or exclamation mark.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">The full-width characters '！' are not allowed in the target string. Use ASCII symbols instead.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">"Hi, I need help!"</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">"Hi, I need help!"</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: 「HiG、サポートをお願い<span style="color:red">！</span>」</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-fullwidth-punctuation-subset</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the target does not contain specific full-width punctuation: percent sign, question mark, or exclamation mark.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >The space character is not allowed in the target string between a double- and single-byte character. Remove the space character.</td></tr>
-<tr><td>key</td><td>You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</td></tr>
-<tr><td>source</td><td>You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</td></tr>
-<tr><td>target</td><td>Target: [OLE<e0>D ケ</e0>ア > ケア映像設定]が有効のときは、省エネステップを設定できません。</td></tr>
-<tr><td>resource-no-space-between-double-and-single-byte-character</td><td>Ensure that the target does not contain a space character between a double-byte and single-byte character.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-between-double-and-single-byte-character.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-between-double-and-single-byte-character.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;black;background-color:maroon;text-align:left;font-size:22px; width=280px;>[error]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">The full-width characters '？' are not allowed in the target string. Use ASCII symbols instead.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Do you want to disable {func}?</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Do you want to disable {func}?</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: {func}を無効にしますか<span style="color:red">？</span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-fullwidth-punctuation-subset</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the target does not contain specific full-width punctuation: percent sign, question mark, or exclamation mark.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-fullwidth-punctuation-subset.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >There should be no space adjacent to fullwidth punctuation characters ' 「'. Remove it.</td></tr>
-<tr><td>key</td><td>* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
-<tr><td>source</td><td>* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
-<tr><td>target</td><td>Target: *<e0> 「</e0>機器設定」 > 「いつでもOK」の使用状況によって、動作は異なります。</td></tr>
-<tr><td>resource-no-space-with-fullwidth-punctuation</td><td>Ensure that there is no whitespace adjacent to the fullwidth punctuation characters.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">The space character is not allowed in the target string between a double- and single-byte character. Remove the space character.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">You cannot set the Energy Saving Step when 'OLED Care > Care Picture Settings' is enabled.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: [OLE<span style="color:red">D ケ</span>ア > ケア映像設定]が有効のときは、省エネステップを設定できません。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-space-between-double-and-single-byte-character</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the target does not contain a space character between a double-byte and single-byte character.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-between-double-and-single-byte-character.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-between-double-and-single-byte-character.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >There should be no space adjacent to fullwidth punctuation characters '」 '. Remove it.</td></tr>
-<tr><td>key</td><td>* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
-<tr><td>source</td><td>* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
-<tr><td>target</td><td>Target: * 「機器設定<e0>」 </e0>> 「いつでもOK」の使用状況によって、動作は異なります。</td></tr>
-<tr><td>resource-no-space-with-fullwidth-punctuation</td><td>Ensure that there is no whitespace adjacent to the fullwidth punctuation characters.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">There should be no space adjacent to fullwidth punctuation characters ' 「'. Remove it.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: *<span style="color:red"> 「</span>機器設定」 > 「いつでもOK」の使用状況によって、動作は異なります。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-space-with-fullwidth-punctuation</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that there is no whitespace adjacent to the fullwidth punctuation characters.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >There should be no space adjacent to fullwidth punctuation characters ' 「'. Remove it.</td></tr>
-<tr><td>key</td><td>* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
-<tr><td>source</td><td>* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
-<tr><td>target</td><td>Target: * 「機器設定」 ><e0> 「</e0>いつでもOK」の使用状況によって、動作は異なります。</td></tr>
-<tr><td>resource-no-space-with-fullwidth-punctuation</td><td>Ensure that there is no whitespace adjacent to the fullwidth punctuation characters.</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">There should be no space adjacent to fullwidth punctuation characters '」 '. Remove it.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: * 「機器設定<span style="color:red">」 </span>> 「いつでもOK」の使用状況によって、動作は異なります。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-space-with-fullwidth-punctuation</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that there is no whitespace adjacent to the fullwidth punctuation characters.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ko-KR.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quote style for the locale ko-KR should be “text”</td></tr>
-<tr><td>key</td><td>You can launch the Instant Game Response by setting HDMI ULTRA HD Deep Color "On".</td></tr>
-<tr><td>source</td><td>You can launch the Instant Game Response by setting HDMI ULTRA HD Deep Color "On".</td></tr>
-<tr><td>target</td><td>Target: HDMI UHD Deep Color를 <e0>'</e0>켜짐<e0>'</e0>으로 설정해야 게임 최적화 모드를 실행할 수 있습니다.</td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ja-JP.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">There should be no space adjacent to fullwidth punctuation characters ' 「'. Remove it.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">* The movement may vary depending on the use of 'General > Always Ready'.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: * 「機器設定」 ><span style="color:red"> 「</span>いつでもOK」の使用状況によって、動作は異なります。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-no-space-with-fullwidth-punctuation</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that there is no whitespace adjacent to the fullwidth punctuation characters.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-no-space-with-fullwidth-punctuation.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/ko-KR.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quotes are missing in the target. Quote style for the locale ko-KR should be ‘text’</td></tr>
-<tr><td>key</td><td>If you turn off 'Quick Start+', you will not be able to turn on your TV with Remote Free Control. Would you like to continue?</td></tr>
-<tr><td>source</td><td>If you turn off 'Quick Start+', you will not be able to turn on your TV with Remote Free Control. Would you like to continue?</td></tr>
-<tr><td>target</td><td>Target: TV 빨리 켜기 기능을 끄면 원거리 음성인식으로 TV를 켤 수 없습니다. 계속하시겠습니까?<e0></e0></td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ko-KR.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quote style for the locale ko-KR should be “text”</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">You can launch the Instant Game Response by setting HDMI ULTRA HD Deep Color "On".</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">You can launch the Instant Game Response by setting HDMI ULTRA HD Deep Color "On".</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: HDMI UHD Deep Color를 <span style="color:red">'</span>켜짐<span style="color:red">'</span>으로 설정해야 게임 최적화 모드를 실행할 수 있습니다.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/zh-Hans-CN.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quote style for the locale zh-Hans-CN should be ‘text’</td></tr>
-<tr><td>key</td><td>Prevent Input Delay (Input Lag) setting will return to Standard if 'Game Optimizer' is not used.</td></tr>
-<tr><td>source</td><td>Prevent Input Delay (Input Lag) setting will return to Standard if 'Game Optimizer' is not used.</td></tr>
-<tr><td>target</td><td>Target: 如果未使用<e0>游</e0>$3戏优化器<e1>”</e1>，则<e0>防</e0>$3止输入延迟（输入滞后）<e0>设</e0>$3置将返回<e0>标</e0>$3准<e1>”</e1>。</td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/ko-KR.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quotes are missing in the target. Quote style for the locale ko-KR should be ‘text’</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">If you turn off 'Quick Start+', you will not be able to turn on your TV with Remote Free Control. Would you like to continue?</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">If you turn off 'Quick Start+', you will not be able to turn on your TV with Remote Free Control. Would you like to continue?</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: TV 빨리 켜기 기능을 끄면 원거리 음성인식으로 TV를 켤 수 없습니다. 계속하시겠습니까?<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/zh-Hans-CN.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quote style for the locale zh-Hans-CN should be ‘text’</td></tr>
-<tr><td>key</td><td>Check '{MenuName}' to turn off the TV directly without display of wallpaper by pressing the 'Power' button.</td></tr>
-<tr><td>source</td><td>Check '{MenuName}' to turn off the TV directly without display of wallpaper by pressing the 'Power' button.</td></tr>
-<tr><td>target</td><td>Target: 选中<e0>{</e0>$3MenuName}<e0>可</e0>$3通过按<e0>电</e0>$3源<e0>按</e0>$3钮直接关闭电视而不显示壁纸。</td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/zh-Hans-CN.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quote style for the locale zh-Hans-CN should be ‘text’</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Prevent Input Delay (Input Lag) setting will return to Standard if 'Game Optimizer' is not used.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Prevent Input Delay (Input Lag) setting will return to Standard if 'Game Optimizer' is not used.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: 如果未使用<span style="color:red">游</span>$3戏优化器<span style="color:red">”</span>，则<span style="color:red">防</span>$3止输入延迟（输入滞后）<span style="color:red">设</span>$3置将返回<span style="color:red">标</span>$3准<span style="color:red">”</span>。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
 <table>
 <thead>
-<tr><th style=color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style='text-align:left'></th></tr>
-<tr><td style="text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="color:Cadetblue;font-weight:bold">sample-B/zh-Hans-CN.xliff</td></tr>
-<tr><td style="color:red; text-align:left">Descriptions</td><td style="color:red;" >Quotes are missing in the target. Quote style for the locale zh-Hans-CN should be ‘text’</td></tr>
-<tr><td>key</td><td>{iconNick}'s Personalized Picture</td></tr>
-<tr><td>source</td><td>{iconNick}'s Personalized Picture</td></tr>
-<tr><td>target</td><td>Target: {iconNick} 的个性化画面<e0></e0></td></tr>
-<tr><td>resource-quote-style</td><td>Ensure that the proper quote characters are used in translated resources</td></tr>
-<tr><td>More info</td><td><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
-<tr><td>Auto-fix</td><td>unavilable</td></tr>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/zh-Hans-CN.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quote style for the locale zh-Hans-CN should be ‘text’</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Check '{MenuName}' to turn off the TV directly without display of wallpaper by pressing the 'Power' button.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Check '{MenuName}' to turn off the TV directly without display of wallpaper by pressing the 'Power' button.</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: 选中<span style="color:red">{</span>$3MenuName}<span style="color:red">可</span>$3通过按<span style="color:red">电</span>$3源<span style="color:red">按</span>$3钮直接关闭电视而不显示壁纸。</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
+<thead>
+<table>
+<br>
+<table>
+<thead>
+<tr><th colspan="2" style=padding-left:8px;color:white;background-color:orange;text-align:left;font-size:22px; width=280px;>[warning]</th><th style="text-align:left"></th></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;text-align:left;color:Cadetblue;font-weight:bold">filepath</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px;color:Cadetblue;font-weight:bold">sample-B/zh-Hans-CN.xliff</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;color:red; text-align:left">Descriptions</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;color:red;">Quotes are missing in the target. Quote style for the locale zh-Hans-CN should be ‘text’</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">key</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">{iconNick}'s Personalized Picture</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">source</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">{iconNick}'s Personalized Picture</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">target</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Target: {iconNick} 的个性化画面<span style="color:red"></span></td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-right:20px">resource-quote-style</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;padding-right:30px">Ensure that the proper quote characters are used in translated resources</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">More info</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;"><a href=https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md>https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-quote-style.md</td></tr>
+<tr><td style="padding-left:8px;background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;">Auto-fix</td><td style="background:#eee;border-bottom:1px solid #ccc;border-top:1px solid #fff;padding-left:8px;">unavailable</td></tr>
 <thead>
 <table>
 <br>
