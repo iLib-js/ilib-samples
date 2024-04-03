@@ -3,7 +3,7 @@
 : <<'END'
 DIR = /home/goun/Source/swp/localization-data
 CONFIG = /home/goun/Source/swp/lintScript/ilib-lint-config.json
-./execute.sh ~/Source/swp/localization-data/ ~/Source/swp/lintScript/ilib-lint-config.json
+./execute.sh ~/Source/swp/localization-data/ /home/goun/Source/ilib-samples/lint-webos/ilib-lint-config.json
 END
 
 SAVEIFS=$IFS
@@ -28,7 +28,7 @@ do
     cd $appDir
     appCnt=$((appCnt+1))
     echo "<<< ("$appCnt")" $appDir " >>>"
-    node /home/goun/Source/node_modules/.bin/ilib-lint -c $CONFIG -i
+    node /home/goun/Source/ilib-samples/lint-webos/node_modules/ilib-lint/src/index.js -c $CONFIG -i -f html-formatter -o /home/goun/Source/swp/lintResult-swp/$appDir-result.html -n $appDir
     cd ..
     echo "==========================================================================="
   fi
