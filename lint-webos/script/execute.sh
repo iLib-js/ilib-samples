@@ -3,7 +3,10 @@
 : <<'END'
 DIR = /home/goun/Source/swp/localization-data
 CONFIG = /home/goun/Source/swp/lintScript/ilib-lint-config.json
-./execute.sh ~/Source/swp/localization-data/ /home/goun/Source/ilib-samples/lint-webos/ilib-lint-config.json
+LINTPATH = /home/goun/Source/ilib-samples/lint-webos/node_modules/ilib-lint
+OUTPUTPATH = /home/goun/Source/swp/lintResult-swp
+
+./execute.sh ~/Source/swp/localization-data/ /home/goun/Source/ilib-samples/lint-webos/ilib-lint-config.json /home/goun/Source/ilib-samples/lint-webos/node_modules/ilib-lint /home/goun/Source/swp/lintResult-swp
 END
 
 SAVEIFS=$IFS
@@ -11,6 +14,9 @@ IFS=$(echo -en "\n\b")
 
 DIR=${1?param missing - Specify the localization-data path }
 CONFIG=${2?param missing - Specify the ilib-llint-config.json file path }
+LINTPATH=${3?param missing - Specify the path where the lint tool is intalled }
+OUTPUTPATH=${4?param missing - Specify the path where the output results will be located }
+
 cd $DIR
 echo $PWD
 appCnt=0
@@ -28,7 +34,7 @@ do
     cd $appDir
     appCnt=$((appCnt+1))
     echo "<<< ("$appCnt")" $appDir " >>>"
-    node /home/goun/Source/ilib-samples/lint-webos/node_modules/ilib-lint/src/index.js -c $CONFIG -i -f html-formatter -o /home/goun/Source/swp/lintResult-swp/$appDir-result.html -n $appDir
+    node $LINTPATH/src/index.js -c $CONFIG -i -f html-formatter -o $OUTPUTPATH/$appDir-result.html -n $appDir
     cd ..
     echo "==========================================================================="
   fi
