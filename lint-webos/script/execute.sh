@@ -6,7 +6,7 @@ CONFIG = /home/goun/Source/swp/lintScript/ilib-lint-config.json
 LINTPATH = /home/goun/Source/ilib-samples/lint-webos/node_modules/ilib-lint
 OUTPUTPATH = /home/goun/Source/swp/lintResult-swp
 
-./execute.sh ~/Source/swp/localization-data/ /home/goun/Source/ilib-samples/lint-webos/ilib-lint-config.json /home/goun/Source/ilib-samples/lint-webos/node_modules/ilib-lint /home/goun/Source/swp/lintResult-swp
+./execute.sh ~/Source/swp/localization-data/ /home/goun/Source/ilib-samples/lint-webos/ilib-lint-config.json /home/goun/Source/ilib-samples/lint-webos/node_modules/.bin/ilib-lint /home/goun/Source/swp/lintResult-swp
 END
 
 SAVEIFS=$IFS
@@ -34,7 +34,7 @@ do
     cd $appDir
     appCnt=$((appCnt+1))
     echo "<<< ("$appCnt")" $appDir " >>>"
-    node $LINTPATH/src/index.js -c $CONFIG -i -f html-formatter -o $OUTPUTPATH/$appDir-result.html -n $appDir
+    node $LINTPATH -c $CONFIG -i -f html-formatter -o $OUTPUTPATH/$appDir-result.html -n $appDir
     cd ..
     echo "==========================================================================="
   fi
