@@ -307,6 +307,21 @@
      <target>{%1}アクセス</target>
     </segment>
    </unit>
+   <unit id="sample-B_6" name="Billing_242">
+   <notes>
+    <note>[24Init_3rd][Billing]Billing_242</note>
+   </notes>
+   <segment>
+    <source>Please set your PIN code from 'Menu > PIN Code'.</source>
+    <target>「メニュー > PINコード」でPINコードを設定してください。</target>
+   </segment>
+  </unit>
+  <unit id="sample-B_68">
+   <segment>
+    <source>Output sound through an LG audio device connected to the OPTICAL DIGITAL AUDIO OUT port. With this option, you can control the device's volume with your TV remote.</source>
+    <target>光デジタル音声出力ポートに接続されているSound SyncのロゴマークのあるＬＧオーディオデバイスから音声を出力します。このオプションを使用すると、デバイスの音量をテレビのリモコンで操作できます。</target>
+   </segment>
+  </unit>
   </group>
  </file>
 </xliff>

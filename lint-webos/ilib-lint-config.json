@@ -2,7 +2,9 @@
     "name": "webOS-lint",
     "sourceLocale": "en-KR",
     "locales": [],
-    "plugins": [],
+    "plugins": [
+        "ilib-lint-webos"
+    ],
     "rulesets": {
         "webos-translation-rules": {
             "resource-url-match": true,
