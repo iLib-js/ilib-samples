@@ -61,13 +61,29 @@
         <source>source_and_target_are_snake_case</source>
         <target state="translated">source_and_target_are_snake_case</target>
       </trans-unit>
-      <trans-unit id="15" resname="test6" restype="string" datatype="javascript">
+      <trans-unit id="15" resname="test7" restype="string" datatype="javascript">
         <source>sourceAndTargetAreCamelCase</source>
         <target state="translated">sourceAndTargetAreCamelCase</target>
       </trans-unit>
-      <trans-unit id="14" resname="test5" restype="string" datatype="javascript">
+      <trans-unit id="14" resname="test8" restype="string" datatype="javascript">
         <source>This translation unit has a bad state attribute.</source>
         <target state="needs-review">Source and target are not the same.</target>
+      </trans-unit>
+      <trans-unit id="17" resname="test9" restype="string" datatype="javascript">
+        <source>This translation unit has &lt;b>a bold tag&lt;/b> in it.</source>
+        <target state="translated">This translation has no bold tags in it.</target>
+      </trans-unit>
+      <trans-unit id="18" resname="test10" restype="string" datatype="javascript">
+        <source>This translation unit has &lt;p>a paragraph tag in it.</source>
+        <target state="translated">This translation has a &lt;p> paragraph tag in it.</target>
+      </trans-unit>
+      <trans-unit id="19" resname="test11" restype="string" datatype="javascript">
+        <source>This translation unit &lt;a href="url">has &lt;b>multiple tags&lt;/b> in it&lt;/a>.</source>
+        <target state="translated">This translation is &lt;a href="url">not &lt;b>well-formed.&lt;/a>&lt;/b></target>
+      </trans-unit>
+      <trans-unit id="20" resname="test12" restype="string" datatype="javascript">
+        <source>This translation unit has &lt;b>a bold tag&lt;/b> in it.</source>
+        <target state="translated">This translation has bad &lt;>tags in it.&lt;/></target>
       </trans-unit>
     </body>
   </file>

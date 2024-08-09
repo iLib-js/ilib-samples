@@ -9,14 +9,6 @@
         "en-US",
         "de-DE"
     ],
-    "rulesets": {
-        "generic": {
-            "resource-quote-style": true,
-            "resource-unique-keys": true,
-            "resource-url-match": true,
-            "resource-state-checker": "translated"
-        }
-    },
     "filetypes": {
         "jsx": {
             "parsers": [ "JSXParser" ],
