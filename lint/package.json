@@ -1,6 +1,6 @@
 {
     "name": "ilib-sample",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "main": "./src/index.js",
     "description": "Sample application that demostrates how to use the ilib-lint tool with python strings",
     "keywords": [
@@ -54,7 +54,7 @@
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-lint": "^2.0.0",
+        "ilib-lint": "^2.3.0",
         "ilib-lint-python": "^2.0.0",
         "ilib-lint-python-gnu": "^2.0.0",
         "ilib-lint-react": "^2.0.0"
