@@ -4,7 +4,7 @@
     <body>
 
       <!-- resource-snake-case declarative rule -->
-      <!-- OK -->
+      <!-- correct -->
       <trans-unit id="30" resname="30" restype="string" datatype="python">
         <source>snake_case</source>
         <target state="translated">snake_case</target>
@@ -26,7 +26,7 @@
         <target state="translated">_test_And_REtest123_456</target>
       </trans-unit>
 
-      <!-- ERROR -->
+      <!-- incorrect -->
       <trans-unit id="35" resname="35" restype="string" datatype="python">
         <source>two_words_in_english</source>
         <target state="translated">dos_palabras_en_español</target>
@@ -36,6 +36,29 @@
         <target state="translated">Pantalones_CORTOS</target>
       </trans-unit>
       <!-- end of resource-snake-case declarative rule -->
+
+
+      <!-- resource-camel-case declarative rule -->
+      <!-- correct -->
+      <trans-unit id="40" resname="40" restype="string" datatype="python">
+        <source>camelCase</source>
+        <target state="translated">camelCase</target>
+      </trans-unit>
+      <trans-unit id="41" resname="41" restype="string" datatype="python">
+        <source> CamelCase </source>
+        <target state="translated"> CamelCase </target>
+      </trans-unit>
+      <trans-unit id="42" resname="42" restype="string" datatype="python">
+        <source>1Camel2Case3</source>
+        <target state="translated">1Camel2Case3</target>
+      </trans-unit>
+
+      <!-- incorrect -->
+      <trans-unit id="44" resname="44" restype="string" datatype="python">
+        <source>twoWordsInEnglish</source>
+        <target state="translated">dosPalabrasEnEspañol</target>
+      </trans-unit>
+      <!-- end of resource-camel-case declarative rule -->
 
     </body>
   </file>
