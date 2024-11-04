@@ -53,6 +53,11 @@
         <target state="translated">1Camel2Case3</target>
       </trans-unit>
 
+      <trans-unit id="43" resname="43" restype="string" datatype="tap">
+        <source>SomeException</source>
+        <target state="translated">TranslatedSomeException</target>
+      </trans-unit>
+
       <!-- incorrect -->
       <trans-unit id="44" resname="44" restype="string" datatype="python">
         <source>twoWordsInEnglish</source>

@@ -1,37 +1,72 @@
 {
-    "name": "lint-test",
-    "plugins": [
+  "name": "lint-test",
+  "plugins": [
+    "python",
+    "python-gnu",
+    "react"
+  ],
+  "locales": [
+    "en-US",
+    "de-DE"
+  ],
+  "filetypes": {
+    "jsx": {
+      "parsers": [
+        "JSXParser"
+      ],
+      "ruleset": [
+        "generic",
+        "react",
+        "source"
+      ]
+    },
+    "python": {
+      // "parsers": [ "PythonParser" ],
+      "ruleset": [
+        "generic",
         "python",
         "python-gnu",
-        "react"
-    ],
-    "locales": [
-        "en-US",
-        "de-DE"
-    ],
-    "filetypes": {
-        "jsx": {
-            "parsers": [ "JSXParser" ],
-            "ruleset": [ "generic", "react", "source" ]
-        },
-        "python" : {
-            // "parsers": [ "PythonParser" ],
-            "ruleset": [ "generic", "python", "python-gnu", "source" ]
-        },
-        "xliff": {
-            "ruleset": [ "generic", "python", "python-gnu" ]
-        }
+        "source"
+      ]
     },
-    "paths": {
-        "xliffs/*.xliff": "xliff",
-        "src/**/*.py": "python",
-        "src/**/*.jsx": "jsx"
-    },
-    "excludes": [
-        "**/.git",
-        "**/node_modules",
-        "**/.svn",
-        "package.json",
-        "package-lock.json"
-    ]
+    "xliff": {
+      "ruleset": [
+        "generic",
+        "python",
+        "python-gnu",
+        "tap"
+      ]
+    }
+  },
+  "paths": {
+    "xliffs/*.xliff": "xliff",
+    "src/**/*.py": "python",
+    "src/**/*.jsx": "jsx"
+  },
+  "excludes": [
+    "**/.git",
+    "**/node_modules",
+    "**/.svn",
+    "package.json",
+    "package-lock.json"
+  ],
+  "rules": [
+    {
+      "type": "resource-matcher",
+      "name": "resource-camel-case",
+      "description": "Ensure that when source strings contain only camel case and no whitespace, then the targets are the same",
+      "note": "Do not translate the source string if it consists solely of camel-cased strings and/or digits. Please update the target string so it matches the source string.",
+      "regexps": [
+        "^\\s*[a-z\\d]+([A-Z][a-z\\d]+)+\\s*$",
+        "^(?!.*(?:SomeException))\\s*[A-Z][a-z\\d]+([A-Z][a-z\\d]+)+\\s*$"
+      ],
+      "link": "https://github.com/ilib-js/ilib-lint/blob/main/docs/resource-camel-case.md",
+      "severity": "error"
+    }
+  ],
+  "rulesets": {
+    "tap": {
+      "resource-camel-case": true
+    }
+  }
 }
