@@ -54,7 +54,7 @@
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-lint": "^2.3.0",
+        "ilib-lint": "^2.6.0",
         "ilib-lint-python": "^2.0.0",
         "ilib-lint-python-gnu": "^2.0.0",
         "ilib-lint-react": "^2.0.0"
