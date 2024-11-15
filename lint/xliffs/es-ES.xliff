@@ -26,12 +26,18 @@
         <target state="translated">_test_And_REtest123_456</target>
       </trans-unit>
 
+      <!-- exceptions -->
+      <trans-unit id="35" resname="35" restype="string" datatype="tap">
+        <source>some_exception</source>
+        <target state="translated">this_can_be_translated_because_it_is_an_exception</target>
+      </trans-unit>
+
       <!-- incorrect -->
-      <trans-unit id="35" resname="35" restype="string" datatype="python">
+      <trans-unit id="36" resname="36" restype="string" datatype="python">
         <source>two_words_in_english</source>
         <target state="translated">dos_palabras_en_español</target>
       </trans-unit>
-      <trans-unit id="36" resname="36" restype="string" datatype="python">
+      <trans-unit id="37" resname="37" restype="string" datatype="python">
         <source>Summer_SHORTS</source>
         <target state="translated">Pantalones_CORTOS</target>
       </trans-unit>
@@ -51,6 +57,12 @@
       <trans-unit id="42" resname="42" restype="string" datatype="python">
         <source>1Camel2Case3</source>
         <target state="translated">1Camel2Case3</target>
+      </trans-unit>
+
+      <!-- exceptions -->
+      <trans-unit id="43" resname="43" restype="string" datatype="tap">
+        <source>SomeException</source>
+        <target state="translated">ThisCanBeTranslatedBecauseItIsAnException</target>
       </trans-unit>
 
       <!-- incorrect -->
