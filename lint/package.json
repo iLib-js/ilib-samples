@@ -1,6 +1,6 @@
 {
     "name": "ilib-sample",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "main": "./src/index.js",
     "description": "Sample application that demostrates how to use the ilib-lint tool with python strings",
     "keywords": [
@@ -49,14 +49,16 @@
     },
     "scripts": {
         "lint": "ilib-lint",
+        "lint:fix": "ilib-lint --overwrite",
         "debug": "node --inspect-brk node_modules/ilib-lint/src/index.js",
         "clean": "git clean -f -d *",
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-lint": "^2.6.0",
-        "ilib-lint-python": "^2.0.0",
-        "ilib-lint-python-gnu": "^2.0.0",
-        "ilib-lint-react": "^2.0.0"
+        "ilib-lint": "^2.7.2",
+        "ilib-lint-common": "^3.1.2",
+        "ilib-lint-python": "^2.0.3",
+        "ilib-lint-python-gnu": "^2.0.3",
+        "ilib-lint-react": "^2.0.3"
     }
 }
