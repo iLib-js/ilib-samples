@@ -55,8 +55,8 @@
         "test": "echo success"
     },
     "dependencies": {
-        "ilib-lint": "^2.7.2",
-        "ilib-lint-common": "^3.1.2",
+        "ilib-lint": "^2.8.0",
+        "ilib-lint-common": "^3.2.0",
         "ilib-lint-python": "^2.0.3",
         "ilib-lint-python-gnu": "^2.0.3",
         "ilib-lint-react": "^2.0.3"
