@@ -30,12 +30,15 @@
       ]
     },
     "xliff": {
+      "parsers": ["xliff"],
       "ruleset": [
         "generic",
         "python",
         "python-gnu",
         "overrides"
-      ]
+      ],
+      "transformers": [ "errorfilter" ],
+      "serializer": "xliff"
     }
   },
   "paths": {
